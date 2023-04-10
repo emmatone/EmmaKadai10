@@ -82,6 +82,7 @@ struct ContentView: View {
                             .padding(.leading)
                         Spacer()
                         Text("\(index + 1)番目の都道府県です。")
+                            .foregroundColor(.gray)
                             .padding(.trailing)
                     }
                     .listRowBackground(lowColors[index % lowColors.count])
