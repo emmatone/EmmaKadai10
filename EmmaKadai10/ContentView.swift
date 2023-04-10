@@ -58,7 +58,7 @@ struct ContentView: View {
         "沖縄県"
     ]
 
-    private let lowColors = [
+    private let lowColors: [Color] = [
         Color.pink.opacity(0.1),
         Color.green.opacity(0.1),
         Color.mint.opacity(0.2)
