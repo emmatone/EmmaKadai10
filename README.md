@@ -2,7 +2,7 @@
 ## Overview
 <p>47都道府県をリスト表示する。</p>
 <p>それぞれの行の背景色は3色が順番に繰り返される。</p>
-<img src="Kadai10.png" />
+<img src="Kadai10.png" alt="screen shot" />
 
 ## Memo
 <ul>
