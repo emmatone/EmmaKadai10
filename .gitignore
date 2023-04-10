@@ -1,0 +1,7 @@
+## Stores meta information about folders and files
+.DS_Store
+
+# Xcode
+Xcuserdata/
+
+UserInterfaceState.xcuserstate
