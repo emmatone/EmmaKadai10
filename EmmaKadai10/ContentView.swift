@@ -90,7 +90,8 @@ struct ContentView: View {
                 .listStyle(.plain)
             }
             .ignoresSafeArea(edges: [.leading, .trailing] )
-            .navigationBarTitle("課題10", displayMode:.inline)
+            .navigationTitle("課題10")
+            .navigationBarTitleDisplayMode(.inline)
         }
     }
 }
