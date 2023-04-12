@@ -58,7 +58,7 @@ struct ContentView: View {
         "沖縄県"
     ]
 
-    private let lowColors: [Color] = [
+    private let rowColors: [Color] = [
         Color.pink.opacity(0.1),
         Color.green.opacity(0.1),
         Color.mint.opacity(0.2)
@@ -85,7 +85,7 @@ struct ContentView: View {
                             .foregroundColor(.gray)
                             .padding(.trailing)
                     }
-                    .listRowBackground(lowColors[index % lowColors.count])
+                    .listRowBackground(rowColors[index % rowColors.count])
                 }
                 .listStyle(.plain)
             }
